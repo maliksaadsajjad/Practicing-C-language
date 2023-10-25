@@ -4,5 +4,7 @@ main()
 {
  printf("Hello World!\n");
  printf("I'm Practicing 'C' language printf function\n");
+ printf("Quick Question :\n");
+ printf("Whats your age?");
  getch();
 }

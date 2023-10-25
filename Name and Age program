@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+char name[50];
+int age;
+printf("Enter your name: ");
+scanf(" %[^\n]", name);
+printf("Enter your age: ");
+scanf("%d", &age);
+printf("Hello %s! You are %d years old!", name, age);
+getch();
+}

@@ -5,7 +5,7 @@ main()
 int a;
 printf("Choose any number\n");
 scanf("%d",&a);
-if(a>100)
+if(a>=100)
 printf("Your given number is Greater than 100");
 else
 printf("Your given number is Smaller than 100");

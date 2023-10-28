@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ int length;
+ int width;
+ int area;
+ printf("Enter the length of the rectangle: \n");
+ scanf("%d",&length);
+ printf("Enter the width of the rectangle: \n");
+ scanf("%d",&width);
+ area = length*width;
+ printf("The area of the rectangle is : %d ", area);
+ getch();
+}

@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ int a;
+ int b;
+ printf("Enter first value: \n");
+ scanf("%d", &a);
+ printf("Enter second value: \n");
+ scanf("%d", &b);
+ if(a>b)
+ printf("First value is greater than Second value.");
+ else
+ printf("Second value is greater than First value.");
+ getch();
+}

@@ -5,7 +5,7 @@ main()
 char name[50];
 int age;
 printf("Enter your name: ");
-scanf(" %[^\n]", name);  \\ %[^\n is used to include the spaces between the name
+scanf(" %[^\n]", name);  // %[^\n is used to include the spaces between the name
 printf("Enter your age: ");
 scanf("%d", &age);
 printf("Hello %s! You are %d years old!", name, age);

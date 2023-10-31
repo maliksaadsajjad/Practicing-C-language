@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ char name[50];
+ float height;
+ printf("Enter your name: \n");
+ scanf(" %[^\n]", name);
+ printf("Enter your height: \n");
+ scanf("%f",&height);
+ if(height>=6.0)
+ printf("Hello %s! Your height is above average", name);
+ else
+ printf("Hello %s! Your height is average", name);
+ getch();
+}

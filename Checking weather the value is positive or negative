@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ int a;
+ printf("Enter a number: ");
+ scanf("%d", &a);
+ if(a==0)
+ printf("The value cannot be zero.");
+ else if(a>0)
+ printf("The given number is a positive number.");
+ else
+ printf("The given number is not a positive number.");
+}

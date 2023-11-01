@@ -10,5 +10,5 @@ main()
  else if(a>0)
  printf("The given number is a positive number.");
  else
- printf("The given number is not a positive number.");
+ printf("The given number is a negative number.");
 }
